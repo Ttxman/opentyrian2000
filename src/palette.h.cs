@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef PALETTE_H
-#define PALETTE_H
 
 using static Opentyrian2000.opentyr;
 
@@ -50,5 +48,4 @@ void fade_solid(SDL_Color color, int steps, unsigned int first_color, unsigned i
 void fade_black(int steps);
 void fade_white(int steps);
 
-#endif /* PALETTE_H */
 }

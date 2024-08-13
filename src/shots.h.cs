@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef SHOTS_H
-#define SHOTS_H
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
@@ -59,5 +57,4 @@ JE_integer player_shot_create(
 	JE_word mousex, JE_word mousey,
 	JE_word wpnum, JE_byte playernum);
 
-#endif // SHOTS_H
 }

@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef MUSMAST_H
-#define MUSMAST_H
 
 using static Opentyrian2000.opentyr;
 
@@ -38,5 +36,4 @@ extern JE_byte songBuy;
 extern const char musicTitle[MUSIC_NUM][48];
 extern JE_boolean musicFade;
 
-#endif /* MUSMAST_H */
 }

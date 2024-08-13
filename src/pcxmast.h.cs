@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef PCXMAST_H
-#define PCXMAST_H
 
 using static Opentyrian2000.opentyr;
 
@@ -32,5 +30,4 @@ extern const JE_byte pcxpal[PCX_NUM];    /* [1..PCXnum] */
 extern const JE_byte facepal[12];       /* [1..12] */
 extern JE_pcxpostype pcxpos;
 
-#endif /* PCXMAST_H */
 }

@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef FONT_H
-#define FONT_H
 
 using static Opentyrian2000.SDL;
 
@@ -49,5 +47,4 @@ void draw_font_hv(SDL_Surface *, int x, int y, const char *text, Font, FontAlign
 void draw_font_hv_blend(SDL_Surface *, int x, int y, const char *text, Font, FontAlignment, Uint8 hue, Sint8 value);
 void draw_font_dark(SDL_Surface *, int x, int y, const char *text, Font, FontAlignment, bool black);
 
-#endif // FONT_H
 }

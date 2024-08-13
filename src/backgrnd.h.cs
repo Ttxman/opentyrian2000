@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef BACKGRND_H
-#define BACKGRND_H
 
 using static Opentyrian2000.opentyr;
 
@@ -63,5 +61,4 @@ void blur_filter(SDL_Surface *dst, SDL_Surface *src);
 void initialize_starfield(void);
 void update_and_draw_starfield(SDL_Surface* surface, int move_speed);
 
-#endif /* BACKGRND_H */
 }

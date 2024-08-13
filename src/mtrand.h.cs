@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef MTRAND_H
-#define MTRAND_H
 
 #define MT_RAND_MAX 0xffffffffUL
 
@@ -26,5 +24,4 @@ unsigned long mt_rand(void);
 float mt_rand_1(void);
 float mt_rand_lt1(void);
 
-#endif /* MTRAND_H */
 }

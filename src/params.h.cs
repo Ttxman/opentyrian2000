@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef PARAMS_H
-#define PARAMS_H
 
 using static Opentyrian2000.opentyr;
 
@@ -28,5 +26,4 @@ extern JE_boolean richMode, constantPlay, constantDie;
 
 void JE_paramCheck(int argc, char *argv[]);
 
-#endif /* PARAMS_H */
 }

@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef ANIMLIB_H
-#define ANIMLIB_H
 
 using static Opentyrian2000.opentyr;
 
@@ -26,5 +24,4 @@ using static Opentyrian2000.opentyr;
 {
 void JE_playAnim(const char *animfile, JE_byte startingframe, JE_byte speed);
 
-#endif /* ANIMLIB_H */
 }

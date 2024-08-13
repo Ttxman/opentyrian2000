@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef HELPTEXT_H
-#define HELPTEXT_H
 
 using static Opentyrian2000.opentyr;
 
@@ -82,5 +80,4 @@ void JE_helpBox(SDL_Surface *screen, int x, int y, const char *message, unsigned
 void JE_HBox(SDL_Surface *screen, int x, int y, unsigned int  messagenum, unsigned int boxwidth);
 void JE_loadHelpText(void);
 
-#endif /* HELPTEXT_H */
 }

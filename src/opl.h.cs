@@ -17,8 +17,6 @@
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-#ifndef OPL_H
-#define OPL_H
 /*
  * Originally based on ADLIBEMU.C, an AdLib/OPL2 emulation library by Ken Silverman
  * Copyright (C) 1998-2001 Ken Silverman
@@ -51,5 +49,4 @@ void adlib_write_index(Bitu port, Bit8u val);
 #define opl_write(reg, val) adlib_write(reg, val)
 #define opl_update(buf, num) adlib_getsample(buf, num)
 
-#endif /* OPL_H */
 }

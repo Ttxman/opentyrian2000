@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef OPENTYR_H
-#define OPENTYR_H
 
 using static Opentyrian2000.SDL_types;
 
@@ -61,5 +59,4 @@ extern const char *opentyrian_version;
 
 void setupMenu(void);
 
-#endif /* OPENTYR_H */
 }

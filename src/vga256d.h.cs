@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef VGA256D_H
-#define VGA256D_H
 
 using static Opentyrian2000.opentyr;
 
@@ -43,5 +41,4 @@ static inline void fill_rectangle_wh(SDL_Surface *surface, int x, int y, uint w,
 
 void draw_segmented_gauge(SDL_Surface *surface, int x, int y, Uint8 color, uint segment_width, uint segment_height, uint segment_value, uint value);
 
-#endif /* VGA256D_H */
 }

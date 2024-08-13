@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef SPRITE_H
-#define SPRITE_H
 
 using static Opentyrian2000.opentyr;
 
@@ -138,5 +136,4 @@ void blit_sprite2x2_filter_clip(SDL_Surface *, int x, int y, Sprite2_array, unsi
 void JE_loadMainShapeTables(const char *shpfile);
 void free_main_shape_tables(void);
 
-#endif // SPRITE_H
 }

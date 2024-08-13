@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef PLAYER_H
-#define PLAYER_H
 
 using static Opentyrian2000.config;
 using static Opentyrian2000.opentyr;
@@ -133,5 +131,4 @@ void calc_purple_balls_needed(Player *);
 bool power_up_weapon(Player *, uint port);
 void handle_got_purple_ball(Player *);
 
-#endif // PLAYER_H
 }

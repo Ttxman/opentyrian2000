@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef PICLOAD_H
-#define PICLOAD_H
 
 using static Opentyrian2000.opentyr;
 
@@ -28,5 +26,4 @@ using static Opentyrian2000.SDL;
 {
 void JE_loadPic(SDL_Surface *screen, JE_byte PCXnumber, JE_boolean storepal);
 
-#endif /* PICLOAD_H */
 }

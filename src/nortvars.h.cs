@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef NORTVARS_H
-#define NORTVARS_H
 
 using static Opentyrian2000.opentyr;
 
@@ -34,5 +32,4 @@ void JE_dBar3(SDL_Surface *surface, JE_integer x,  JE_integer y,  JE_integer num
 void JE_barDrawShadow(SDL_Surface *surface, JE_word x, JE_word y, JE_word res, JE_word col, JE_word amt, JE_word xsize, JE_word ysize);
 void JE_wipeKey(void);
 
-#endif /* NORTVARS_H */
 }

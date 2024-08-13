@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef LDS_PLAY_H
-#define LDS_PLAY_H
 
 using static Opentyrian2000.opentyr;
 
@@ -72,5 +70,4 @@ void lds_playsound(int inst_number, int channel_number, int tunehigh);
 void lds_setregs(unsigned char reg, unsigned char val);
 void lds_setregs_adv(unsigned char reg, unsigned char mask, unsigned char val);
 
-#endif /* LDS_PLAY_H */
 }

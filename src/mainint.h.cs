@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef MAININT_H
-#define MAININT_H
 
 using static Opentyrian2000.config;
 using static Opentyrian2000.opentyr;
@@ -89,5 +87,4 @@ const char *JE_getName(JE_byte pnum);
 
 void JE_playerCollide(Player *this_player, JE_byte playerNum);
 
-#endif /* MAININT_H */
 }

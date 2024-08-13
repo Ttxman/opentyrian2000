@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef GAME_MENU_H
-#define GAME_MENU_H
 
 using static Opentyrian2000.helptext;
 using static Opentyrian2000.opentyr;
@@ -58,5 +56,4 @@ void JE_drawShipSpecs(SDL_Surface *, SDL_Surface *);
 void JE_weaponSimUpdate(void);
 void JE_weaponViewFrame(void);
 
-#endif // GAME_MENU_H
 }

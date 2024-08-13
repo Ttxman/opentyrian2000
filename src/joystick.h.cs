@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef JOYSTICK_H
-#define JOYSTICK_H
 
 using static Opentyrian2000.opentyr;
 using static Opentyrian2000.config_file;
@@ -97,5 +95,4 @@ void joystick_assignments_to_string(char *buffer, size_t buffer_len, const Joyst
 bool detect_joystick_assignment(int j, Joystick_assignment *assignment);
 bool joystick_assignment_cmp(const Joystick_assignment *, const Joystick_assignment *);
 
-#endif /* JOYSTICK_H */
 }

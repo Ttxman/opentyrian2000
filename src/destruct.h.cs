@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef DESTRUCT_H
-#define DESTRUCT_H
 
 using static Opentyrian2000.opentyr;
 
@@ -26,5 +24,4 @@ using static Opentyrian2000.opentyr;
 {
 void JE_destructGame(void);
 
-#endif /* DESTRUCT_H */
 }

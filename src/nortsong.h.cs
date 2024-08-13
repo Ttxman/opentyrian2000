@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef NORTSONG_H
-#define NORTSONG_H
 
 using static Opentyrian2000.opentyr;
 
@@ -54,5 +52,4 @@ void JE_changeVolume(JE_word *music, int music_delta, JE_word *sample, int sampl
 void loadSndFile(bool xmas);
 void JE_playSampleNum(JE_byte samplenum);
 
-#endif /* NORTSONG_H */
 }

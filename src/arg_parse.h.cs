@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef ARG_PARSE_H
-#define ARG_PARSE_H
 
 #include <stdbool.h>
 
@@ -58,5 +56,4 @@ Option;
 
 Option parse_args(int argc, const char *argv[], const Options *options);
 
-#endif /* ARG_PARSE_H */
 }

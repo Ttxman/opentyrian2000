@@ -17,8 +17,6 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifndef SIZEBUF_H
-#define SIZEBUF_H
 
 using static Opentyrian2000.opentyr;
 

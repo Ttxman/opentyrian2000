@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef FONTHAND_H
-#define FONTHAND_H
 
 using static Opentyrian2000.opentyr;
 
@@ -57,5 +55,4 @@ void JE_outTextAndDarken(SDL_Surface * screen, int x, int y, const char *s, unsi
 void JE_updateWarning(SDL_Surface * screen);
 void JE_outTextGlow(SDL_Surface * screen, int x, int y, const char *s);
 
-#endif /* FONTHAND_H */
 }

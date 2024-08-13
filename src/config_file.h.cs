@@ -22,8 +22,6 @@
  * \date 2015
  * \copyright GNU General Public License v2+ or Mozilla Public License 2.0
  */
-#ifndef CONFIG_FILE_H
-#define CONFIG_FILE_H
 
 #include <assert.h>
 #include <stdbool.h>

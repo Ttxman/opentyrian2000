@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef TYRIAN2_H
-#define TYRIAN2_H
 
 using static Opentyrian2000.opentyr;
 
@@ -73,5 +71,4 @@ void JE_eventSystem(void);
 
 void draw_boss_bar(void);
 
-#endif /* TYRIAN2_H */
 }

@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef MOUSE_H
-#define MOUSE_H
 
 using static Opentyrian2000.opentyr;
 
@@ -46,5 +44,4 @@ void JE_mouseStart(void);
 void JE_mouseStartFilter(Uint8 filter);
 void JE_mouseReplace(void);
 
-#endif /* MOUSE_H */
 }

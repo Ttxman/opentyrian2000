@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef FILE_H
-#define FILE_H
 
 using static Opentyrian2000.SDL_endian;
 
@@ -182,5 +180,4 @@ static inline void fwrite_s32_die(const Sint32 *buffer, FILE *stream)
 	fwrite_die(buffer, sizeof(Sint32), 1, stream);
 }
 
-#endif // FILE_H
 }

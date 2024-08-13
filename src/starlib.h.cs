@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef STARLIB_H
-#define STARLIB_H
 
 using static Opentyrian2000.opentyr;
 
@@ -31,5 +29,4 @@ void JE_resetValues(void);
 void JE_changeSetup(JE_byte setupType);
 void JE_newStar(void);
 
-#endif /* STARLIB_H */
 }

@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef SNDMAST_H
-#define SNDMAST_H
 
 using static Opentyrian2000.opentyr;
 
@@ -77,5 +75,4 @@ enum
 extern const char soundTitle[SOUND_COUNT][9];
 extern const JE_byte windowTextSamples[9];
 
-#endif /* SNDMAST_H */
 }

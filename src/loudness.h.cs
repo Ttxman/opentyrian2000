@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef LOUDNESS_H
-#define LOUDNESS_H
 
 using static Opentyrian2000.opentyr;
 using static Opentyrian2000.opl;
@@ -46,5 +44,4 @@ void set_volume(Uint8 musicVolume, Uint8 sampleVolume);
 
 void multiSamplePlay(const Sint16 *samples, size_t sampleCount, Uint8 chan, Uint8 vol);
 
-#endif /* LOUDNESS_H */
 }

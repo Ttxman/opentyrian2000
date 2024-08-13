@@ -16,8 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-#ifndef VIDEO_SCALE_H
-#define VIDEO_SCALE_H
 
 using static Opentyrian2000.opentyr;
 
@@ -41,5 +39,4 @@ extern const uint scalers_count;
 
 void set_scaler_by_name(const char *name);
 
-#endif /* VIDEO_SCALE_H */
 }
