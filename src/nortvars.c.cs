@@ -29,7 +29,7 @@ using static Opentyrian2000.video;
 #include <ctype.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class nortvars 
 {
 JE_boolean inputDetected;
 
@@ -90,4 +90,6 @@ void JE_wipeKey(void)
 {
 	// /!\ Doesn't seems to affect anything.
 }
-}
+
+
+}

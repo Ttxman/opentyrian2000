@@ -23,7 +23,7 @@ using static Opentyrian2000.varz;
 using static Opentyrian2000.helptext;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class tyrian2 
 {
 void intro_logos(void);
 
@@ -71,4 +71,6 @@ void JE_eventSystem(void);
 
 void draw_boss_bar(void);
 
-}
+
+
+}

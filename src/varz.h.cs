@@ -25,7 +25,7 @@ using static Opentyrian2000.sprite;
 #include <stdbool.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class varz 
 {
 #define SA 9
 
@@ -355,4 +355,6 @@ void JE_drawSP(void);
 
 void JE_drawOptionLevel(void);
 
-}
+
+
+}

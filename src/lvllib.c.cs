@@ -22,7 +22,7 @@ using static Opentyrian2000.file;
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class lvllib 
 {
 JE_LvlPosType lvlPos;
 
@@ -41,4 +41,6 @@ void JE_analyzeLevel(void)
 	
 	fclose(f);
 }
-}
+
+
+}

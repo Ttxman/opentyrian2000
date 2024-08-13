@@ -23,7 +23,7 @@ using static Opentyrian2000.SDL_endian;
 #include <stdio.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class file 
 {
 extern const char *custom_data_dir;
 
@@ -180,4 +180,6 @@ static inline void fwrite_s32_die(const Sint32 *buffer, FILE *stream)
 	fwrite_die(buffer, sizeof(Sint32), 1, stream);
 }
 
-}
+
+
+}

@@ -43,7 +43,7 @@ using static Opentyrian2000.SDL_endian;
 #include <string.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class sizebuf 
 {
 /* Construct buffer with the passed array and size */
 void SZ_Init(sizebuf_t * sz, Uint8 * buf, unsigned int size)
@@ -158,4 +158,6 @@ unsigned int MSG_ReadWord(sizebuf_t * sz)
 
 	return ret;
 }
-}
+
+
+}

@@ -57,7 +57,7 @@ using static Opentyrian2000.SDL;
 #include <time.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class opentyr 
 {
 const char *opentyrian_str = "OpenTyrian2000";
 const char *opentyrian_version = OPENTYRIAN_VERSION;
@@ -897,4 +897,6 @@ int main(int argc, char *argv[])
 
 	return 0;
 }
-}
+
+
+}

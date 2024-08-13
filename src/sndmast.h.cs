@@ -20,7 +20,7 @@
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class sndmast 
 {
 #define SFX_COUNT 31
 #define VOICE_COUNT 9
@@ -75,4 +75,6 @@ enum
 extern const char soundTitle[SOUND_COUNT][9];
 extern const JE_byte windowTextSamples[9];
 
-}
+
+
+}

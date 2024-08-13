@@ -27,7 +27,7 @@ using static Opentyrian2000.opentyr;
 #include <stdlib.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class lds_play 
 {
 const unsigned char op_table[9] = {0x00, 0x01, 0x02, 0x08, 0x09, 0x0a, 0x10, 0x11, 0x12};
 
@@ -773,4 +773,6 @@ void lds_playsound(int inst_number, int channel_number, int tunehigh)
 	c->keycount = i->keyoff;
 	c->nextvol = c->glideto = c->finetune = c->vibcount = c->arp_pos = c->arp_count = 0;
 }
-}
+
+
+}

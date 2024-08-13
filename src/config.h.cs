@@ -25,7 +25,7 @@ using static Opentyrian2000.SDL;
 #include <stdio.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class config 
 {
 #define SAVE_FILES_NUM (11 * 2)
 
@@ -195,4 +195,6 @@ void JE_loadGame(JE_byte slot);
 void JE_encryptSaveTemp(void);
 void JE_decryptSaveTemp(void);
 
-}
+
+
+}

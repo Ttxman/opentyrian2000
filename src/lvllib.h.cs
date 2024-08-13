@@ -20,7 +20,7 @@
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class lvllib 
 {
 typedef JE_longint JE_LvlPosType[43]; /* [1..42 + 1] */
 
@@ -30,4 +30,6 @@ extern JE_word lvlNum;
 
 void JE_analyzeLevel(void);
 
-}
+
+
+}

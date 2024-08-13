@@ -20,7 +20,7 @@
 #include <stdbool.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class arg_parse 
 {
 // this is essentially a reimplementation of getopt_long()
 
@@ -56,4 +56,6 @@ Option;
 
 Option parse_args(int argc, const char *argv[], const Options *options);
 
-}
+
+
+}

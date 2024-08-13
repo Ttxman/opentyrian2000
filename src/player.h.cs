@@ -21,7 +21,7 @@ using static Opentyrian2000.config;
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class player 
 {
 enum
 {
@@ -131,4 +131,6 @@ void calc_purple_balls_needed(Player *);
 bool power_up_weapon(Player *, uint port);
 void handle_got_purple_ball(Player *);
 
-}
+
+
+}

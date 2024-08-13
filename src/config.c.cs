@@ -41,7 +41,7 @@ using static Opentyrian2000.video_scale;
 #include <unistd.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class config 
 {#endif
 
 /* Configuration Load/Save handler */
@@ -1167,4 +1167,6 @@ void JE_saveConfiguration(void)
 	
 	save_opentyrian_config();
 }
-}
+
+
+}

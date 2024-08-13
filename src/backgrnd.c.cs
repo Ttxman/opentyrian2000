@@ -27,7 +27,7 @@ using static Opentyrian2000.video;
 #include <assert.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class backgrnd 
 {
 /*Special Background 2 and Background 3*/
 
@@ -526,4 +526,6 @@ void update_and_draw_starfield(SDL_Surface* surface, int move_speed)
 		}
 	}
 }
-}
+
+
+}

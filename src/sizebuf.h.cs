@@ -21,7 +21,7 @@
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class sizebuf 
 {
 typedef struct sizebuf_s
 {
@@ -41,4 +41,6 @@ unsigned int MSG_ReadByte(sizebuf_t *);
 unsigned int MSG_ReadWord(sizebuf_t *);
 
 #endif
-}
+
+
+}

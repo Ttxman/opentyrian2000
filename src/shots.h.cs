@@ -19,7 +19,7 @@
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class shots 
 {
 typedef struct {
 	JE_integer shotX, shotY, shotXM, shotYM, shotXC, shotYC;
@@ -57,4 +57,6 @@ JE_integer player_shot_create(
 	JE_word mousex, JE_word mousey,
 	JE_word wpnum, JE_byte playernum);
 
-}
+
+
+}

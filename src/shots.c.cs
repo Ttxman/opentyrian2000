@@ -24,7 +24,7 @@ using static Opentyrian2000.video;
 using static Opentyrian2000.varz;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class shots 
 {
 // I'm pretty sure the last extra entry is never used.
 PlayerShotDataType playerShotData[MAX_PWEAPON + 1]; /* [1..MaxPWeapon+1] */
@@ -509,4 +509,6 @@ JE_integer player_shot_create(JE_word portNum, uint bay_i, JE_word PX, JE_word P
 
 	return shot_id;
 }
-}
+
+
+}

@@ -22,7 +22,7 @@ using static Opentyrian2000.opentyr;
 #include <stdio.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class lds_play 
 {
 extern bool playing, songlooped;
 
@@ -70,4 +70,6 @@ void lds_playsound(int inst_number, int channel_number, int tunehigh);
 void lds_setregs(unsigned char reg, unsigned char val);
 void lds_setregs_adv(unsigned char reg, unsigned char mask, unsigned char val);
 
-}
+
+
+}

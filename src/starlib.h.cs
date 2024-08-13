@@ -20,7 +20,7 @@
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class starlib 
 {
 void JE_starlib_main(void);
 void JE_wackyCol(void);
@@ -29,4 +29,6 @@ void JE_resetValues(void);
 void JE_changeSetup(JE_byte setupType);
 void JE_newStar(void);
 
-}
+
+
+}

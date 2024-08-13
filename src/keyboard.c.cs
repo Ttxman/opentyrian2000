@@ -31,7 +31,7 @@ using static Opentyrian2000.SDL;
 #include <stdio.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class keyboard 
 {
 JE_boolean ESCPressed;
 
@@ -287,4 +287,6 @@ void JE_clearKeyboard(void)
 {
 	// /!\ Doesn't seems important. I think. D:
 }
-}
+
+
+}

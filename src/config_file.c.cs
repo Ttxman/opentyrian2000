@@ -31,7 +31,7 @@ using static Opentyrian2000.config_file;
 #include <string.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class config_file 
 {
 /* potential size of decimal representation of type */
 #define udecsizeof(t) ((CHAR_BIT * sizeof(t) / 3) + 1)
@@ -1034,4 +1034,6 @@ void config_write(const Config *config, FILE *file)
 		fputc('\n', file);
 	}
 }
-}
+
+
+}

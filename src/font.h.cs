@@ -22,7 +22,7 @@ using static Opentyrian2000.SDL;
 #include <stdbool.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class font 
 {
 typedef enum
 {
@@ -47,4 +47,6 @@ void draw_font_hv(SDL_Surface *, int x, int y, const char *text, Font, FontAlign
 void draw_font_hv_blend(SDL_Surface *, int x, int y, const char *text, Font, FontAlignment, Uint8 hue, Sint8 value);
 void draw_font_dark(SDL_Surface *, int x, int y, const char *text, Font, FontAlignment, bool black);
 
-}
+
+
+}

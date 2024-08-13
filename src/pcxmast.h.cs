@@ -20,7 +20,7 @@
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class pcxmast 
 {
 #define PCX_NUM 14
 
@@ -30,4 +30,6 @@ extern const JE_byte pcxpal[PCX_NUM];    /* [1..PCXnum] */
 extern const JE_byte facepal[12];       /* [1..12] */
 extern JE_pcxpostype pcxpos;
 
-}
+
+
+}

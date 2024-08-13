@@ -26,7 +26,7 @@ using static Opentyrian2000.video;
 #include <assert.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class palette 
 {
 static Uint32 rgb_to_yuv(int r, int g, int b);
 
@@ -186,4 +186,6 @@ static Uint32 rgb_to_yuv(int r, int g, int b)
 	    v = 128 + ((-r + 2 * g - b) >> 3);
 	return (y << 16) + (u << 8) + v;
 }
-}
+
+
+}

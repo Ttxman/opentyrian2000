@@ -25,7 +25,7 @@ using static Opentyrian2000.SDL;
 #include <stdio.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class sprite 
 {
 #define FONT_SHAPES       0
 #define SMALL_FONT_SHAPES 1
@@ -136,4 +136,6 @@ void blit_sprite2x2_filter_clip(SDL_Surface *, int x, int y, Sprite2_array, unsi
 void JE_loadMainShapeTables(const char *shpfile);
 void free_main_shape_tables(void);
 
-}
+
+
+}

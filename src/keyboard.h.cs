@@ -24,7 +24,7 @@ using static Opentyrian2000.SDL;
 #include <stdbool.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class keyboard 
 {
 #define SDL_POLL_INTERVAL 10
 
@@ -57,4 +57,6 @@ void sleep_game(void);
 
 void JE_clearKeyboard(void);
 
-}
+
+
+}

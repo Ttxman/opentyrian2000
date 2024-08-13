@@ -66,7 +66,7 @@ using static Opentyrian2000.video;
 #include <assert.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class destruct 
 {
 /*** Defines ***/
 #define UNIT_HEIGHT 12
@@ -2747,4 +2747,6 @@ static void JE_pixCool(unsigned int x, unsigned int y, Uint8 c)
 	JE_pix(VGAScreen, x, y - 1, c - 2);
 	JE_pix(VGAScreen, x, y + 1, c - 2);
 }
-}
+
+
+}

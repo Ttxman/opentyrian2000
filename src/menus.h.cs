@@ -20,7 +20,7 @@
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class menus 
 {
 #define GAMEPLAY_NAME_COUNT 6
 extern char episode_name[6][31];
@@ -33,4 +33,6 @@ bool episodeSelect(void);
 bool difficultySelect(void);
 bool timedBattleSelect(void);
 
-}
+
+
+}

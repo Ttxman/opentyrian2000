@@ -22,7 +22,7 @@ using static Opentyrian2000.opentyr;
 using static Opentyrian2000.SDL;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class video 
 {
 #define vga_width 320
 #define vga_height 200
@@ -64,4 +64,6 @@ void mapScreenPointToWindow(Sint32 *inout_x, Sint32 *inout_y);
 void mapWindowPointToScreen(Sint32 *inout_x, Sint32 *inout_y);
 void scaleWindowDistanceToScreen(Sint32 *inout_x, Sint32 *inout_y);
 
-}
+
+
+}

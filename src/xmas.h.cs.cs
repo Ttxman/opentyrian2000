@@ -22,7 +22,7 @@
 #include <stdbool.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class xmas.cs 
 {
 extern bool xmas;
 extern bool override_xmas;
@@ -31,4 +31,6 @@ bool xmas_time(void);
 bool xmas_prompt(void);
 
 #endif /* XMAS_H */
-}
+
+
+}

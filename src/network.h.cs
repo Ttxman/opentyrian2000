@@ -22,7 +22,7 @@ using static Opentyrian2000.opentyr;
 using static Opentyrian2000.SDL;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class network 
 {#ifdef WITH_NETWORK
 #	include "SDL_net.h"
 #endif
@@ -93,4 +93,6 @@ void JE_clearSpecialRequests(void);
 #define NETWORK_KEEP_ALIVE()
 #endif
 
-}
+
+
+}

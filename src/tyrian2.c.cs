@@ -55,7 +55,7 @@ using static Opentyrian2000.video;
 #include <stdint.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class tyrian2 
 {
 inline static void blit_enemy(SDL_Surface *surface, unsigned int i, signed int x_offset, signed int y_offset, signed int sprite_offset);
 
@@ -5354,4 +5354,6 @@ void draw_boss_bar(void)
 			boss_bar[b].color--;
 	}
 }
-}
+
+
+}

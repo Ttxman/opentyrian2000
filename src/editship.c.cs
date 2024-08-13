@@ -23,7 +23,7 @@ using static Opentyrian2000.file;
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class editship 
 {
 #define SAS (sizeof(JE_ShipsType) - 4)
 
@@ -92,4 +92,6 @@ void JE_loadExtraShapes(void)
 		fclose(f);
 	}
 }
-}
+
+
+}

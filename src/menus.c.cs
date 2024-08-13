@@ -35,7 +35,7 @@ using static Opentyrian2000.vga256d;
 using static Opentyrian2000.video;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class menus 
 {
 char episode_name[6][31];
 char difficulty_name[7][21];
@@ -859,4 +859,6 @@ bool timedBattleSelect(void)
 		}
 	}
 }
-}
+
+
+}

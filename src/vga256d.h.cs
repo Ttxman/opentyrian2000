@@ -22,7 +22,7 @@ using static Opentyrian2000.opentyr;
 using static Opentyrian2000.SDL;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class vga256d 
 {
 void JE_pix(SDL_Surface *surface, int x, int y, JE_byte c);
 void JE_pix3(SDL_Surface *surface, int x, int y, JE_byte c);
@@ -41,4 +41,6 @@ static inline void fill_rectangle_wh(SDL_Surface *surface, int x, int y, uint w,
 
 void draw_segmented_gauge(SDL_Surface *surface, int x, int y, Uint8 color, uint segment_width, uint segment_height, uint segment_value, uint value);
 
-}
+
+
+}

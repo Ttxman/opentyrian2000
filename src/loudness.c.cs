@@ -29,7 +29,7 @@ using static Opentyrian2000.params;
 #include <string.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class loudness 
 {
 #define OUTPUT_QUALITY 4  // 44.1 kHz
 
@@ -367,4 +367,6 @@ void multiSamplePlay(const Sint16 *samples, size_t sampleCount, Uint8 chan, Uint
 
 	SDL_UnlockAudioDevice(audioDevice);
 }
-}
+
+
+}

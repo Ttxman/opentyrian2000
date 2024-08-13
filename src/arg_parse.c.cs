@@ -23,7 +23,7 @@ using static Opentyrian2000.arg_parse;
 #include <string.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class arg_parse 
 {
 static void permute(const char *argv[], int *first_nonopt, int *first_opt, int after_opt);
 
@@ -260,4 +260,6 @@ static char *ot_strchrnul(const char *s, int c)
 		;
 	return (char *)s;
 }
-}
+
+
+}

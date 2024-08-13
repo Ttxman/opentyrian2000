@@ -22,8 +22,10 @@ using static Opentyrian2000.opentyr;
 using static Opentyrian2000.SDL;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class picload 
 {
 void JE_loadPic(SDL_Surface *screen, JE_byte PCXnumber, JE_boolean storepal);
 
-}
+
+
+}

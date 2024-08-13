@@ -30,7 +30,7 @@ using static Opentyrian2000.video;
 #include <string.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class helptext 
 {
 const JE_byte menuHelp[MENU_MAX][11] = /* [1..maxmenu, 1..11] */
 {
@@ -454,4 +454,6 @@ void JE_loadHelpText(void)
 
 	fclose(f);
 }
-}
+
+
+}

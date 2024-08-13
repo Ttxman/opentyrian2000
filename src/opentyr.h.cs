@@ -23,7 +23,7 @@ using static Opentyrian2000.SDL_types;
 #include <stdbool.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class opentyr 
 {
 #define COUNTOF(x) ((unsigned)(sizeof(x) / sizeof *(x)))  // use only on arrays!
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
@@ -59,4 +59,6 @@ extern const char *opentyrian_version;
 
 void setupMenu(void);
 
-}
+
+
+}

@@ -31,7 +31,7 @@ using static Opentyrian2000.video;
 #include <time.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class xmas 
 {
 bool xmas = false;
 bool override_xmas = false;
@@ -242,4 +242,6 @@ bool xmas_prompt(void)
 		}
 	}
 }
-}
+
+
+}

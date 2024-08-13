@@ -28,7 +28,7 @@ using static Opentyrian2000.vga256d;
 using static Opentyrian2000.video;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class fonthand 
 {
 const int font_ascii[256] =
 {
@@ -334,4 +334,6 @@ void JE_outTextGlow(SDL_Surface * screen, int x, int y, const char *s)
 	}
 	textGlowBrightness = 6;
 }
-}
+
+
+}

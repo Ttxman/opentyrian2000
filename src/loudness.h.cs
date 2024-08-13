@@ -23,7 +23,7 @@ using static Opentyrian2000.opl;
 using static Opentyrian2000.SDL;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class loudness 
 {
 extern int audioSampleRate;
 
@@ -44,4 +44,6 @@ void set_volume(Uint8 musicVolume, Uint8 sampleVolume);
 
 void multiSamplePlay(const Sint16 *samples, size_t sampleCount, Uint8 chan, Uint8 vol);
 
-}
+
+
+}

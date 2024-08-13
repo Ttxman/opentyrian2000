@@ -31,7 +31,7 @@ using static Opentyrian2000.vga256d;
 using static Opentyrian2000.SDL;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class nortsong 
 {
 JE_word frameCountMax;
 
@@ -294,4 +294,6 @@ void JE_changeVolume(JE_word *music, int music_delta, JE_word *sample, int sampl
 	
 	set_volume(*music, *sample);
 }
-}
+
+
+}

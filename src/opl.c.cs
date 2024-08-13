@@ -31,7 +31,7 @@ using static Opentyrian2000.opl;
 #include <string.h> // memset()
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class opl 
 {
 #define fltype double
 
@@ -1614,4 +1614,6 @@ void adlib_getsample(Bit16s* sndptr, Bits numsamples) {
 
 	}
 }
-}
+
+
+}

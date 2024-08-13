@@ -22,7 +22,7 @@ using static Opentyrian2000.opentyr;
 using static Opentyrian2000.SDL;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class mouse 
 {
 enum
 {
@@ -44,4 +44,6 @@ void JE_mouseStart(void);
 void JE_mouseStartFilter(Uint8 filter);
 void JE_mouseReplace(void);
 
-}
+
+
+}

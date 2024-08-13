@@ -22,7 +22,7 @@ using static Opentyrian2000.opentyr;
 using static Opentyrian2000.SDL;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class nortvars 
 {
 extern JE_boolean inputDetected;
 
@@ -32,4 +32,6 @@ void JE_dBar3(SDL_Surface *surface, JE_integer x,  JE_integer y,  JE_integer num
 void JE_barDrawShadow(SDL_Surface *surface, JE_word x, JE_word y, JE_word res, JE_word col, JE_word amt, JE_word xsize, JE_word ysize);
 void JE_wipeKey(void);
 
-}
+
+
+}

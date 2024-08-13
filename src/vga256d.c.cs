@@ -33,7 +33,7 @@ using static Opentyrian2000.SDL;
 #include <string.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class vga256d 
 {
 void JE_pix(SDL_Surface *surface, int x, int y, JE_byte c)
 {
@@ -167,4 +167,6 @@ void draw_segmented_gauge(SDL_Surface *surface, int x, int y, Uint8 color, uint 
 	if (partial_segment > 0)
 		fill_rectangle_wh(surface, x, y, segment_width, segment_height, color + (12 * partial_segment / segment_value));
 }
-}
+
+
+}

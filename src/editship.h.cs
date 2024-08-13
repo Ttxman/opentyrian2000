@@ -20,7 +20,7 @@
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class editship 
 {
 // TODO: replace with less opaque type
 typedef JE_byte JE_ShipsType[154]; /* [1..154] */
@@ -33,4 +33,6 @@ extern JE_word extraShapeSize;
 void JE_decryptShips(void);
 void JE_loadExtraShapes(void);
 
-}
+
+
+}

@@ -35,7 +35,7 @@ using static Opentyrian2000.video;
 #include <stdio.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class jukebox 
 {
 void jukebox(void)  // FKA Setup.jukeboxGo
 {
@@ -203,4 +203,6 @@ void jukebox(void)  // FKA Setup.jukeboxGo
 
 	set_volume(tyrMusicVolume, fxVolume);
 }
-}
+
+
+}

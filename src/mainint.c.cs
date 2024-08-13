@@ -56,7 +56,7 @@ using static Opentyrian2000.video;
 #include <string.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class mainint 
 {
 bool button[4];
 
@@ -5108,4 +5108,6 @@ void JE_playerCollide(Player *this_player, JE_byte playerNum_)
 		}
 	}
 }
-}
+
+
+}

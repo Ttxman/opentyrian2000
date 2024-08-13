@@ -25,7 +25,7 @@ using static Opentyrian2000.video;
 using static Opentyrian2000.vga256d;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class mouse 
 {
 #if defined(TARGET_GP2X) || defined(TARGET_DINGUX)
 bool has_mouse = false;
@@ -166,4 +166,6 @@ void JE_mouseReplace(void)
 	if (has_mouse)
 		JE_drawShapeTypeOne(mouseGrabX, mouseGrabY, mouseGrabShape);
 }
-}
+
+
+}

@@ -23,7 +23,7 @@ using static Opentyrian2000.config_file;
 using static Opentyrian2000.SDL;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class joystick 
 {
 typedef enum
 {
@@ -95,4 +95,6 @@ void joystick_assignments_to_string(char *buffer, size_t buffer_len, const Joyst
 bool detect_joystick_assignment(int j, Joystick_assignment *assignment);
 bool joystick_assignment_cmp(const Joystick_assignment *, const Joystick_assignment *);
 
-}
+
+
+}

@@ -37,7 +37,7 @@ using static Opentyrian2000.vga256d;
 using static Opentyrian2000.video;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class varz 
 {
 JE_integer tempDat, tempDat2, tempDat3;
 
@@ -1193,4 +1193,6 @@ void JE_drawSP(void)
 		}
 	}
 }
-}
+
+
+}

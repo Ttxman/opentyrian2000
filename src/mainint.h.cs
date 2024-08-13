@@ -24,7 +24,7 @@ using static Opentyrian2000.player;
 using static Opentyrian2000.sprite;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class mainint 
 {
 extern bool button[4]; // fire, left fire, right fire, mode swap
 
@@ -87,4 +87,6 @@ const char *JE_getName(JE_byte pnum);
 
 void JE_playerCollide(Player *this_player, JE_byte playerNum);
 
-}
+
+
+}

@@ -24,7 +24,7 @@ using static Opentyrian2000.SDL;
 #include <stdint.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class backgrnd 
 {
 extern JE_word backPos, backPos2, backPos3;
 extern JE_word backMove, backMove2, backMove3;
@@ -61,4 +61,6 @@ void blur_filter(SDL_Surface *dst, SDL_Surface *src);
 void initialize_starfield(void);
 void update_and_draw_starfield(SDL_Surface* surface, int move_speed);
 
-}
+
+
+}

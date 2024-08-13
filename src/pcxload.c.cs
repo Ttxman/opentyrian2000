@@ -26,7 +26,7 @@ using static Opentyrian2000.video;
 #include <string.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class pcxload 
 {
 void JE_loadPCX(const char *file) // this is only meant to load tshp2.pcx
 {
@@ -77,4 +77,6 @@ void JE_loadPCX(const char *file) // this is only meant to load tshp2.pcx
 	
 	fclose(f);
 }
-}
+
+
+}

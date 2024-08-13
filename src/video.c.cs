@@ -30,7 +30,7 @@ using static Opentyrian2000.video_scale;
 #include <string.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class video 
 {
 const char *const scaling_mode_names[ScalingMode_MAX] = {
 	"Center",
@@ -423,4 +423,6 @@ void scaleWindowDistanceToScreen(Sint32 *const inout_x, Sint32 *const inout_y)
 	*inout_x = (2 * *inout_x + 1) * VGAScreen->w / (2 * last_output_rect.w);
 	*inout_y = (2 * *inout_y + 1) * VGAScreen->h / (2 * last_output_rect.h);
 }
-}
+
+
+}

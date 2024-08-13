@@ -22,7 +22,7 @@ using static Opentyrian2000.opentyr;
 using static Opentyrian2000.SDL;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class palette 
 {
 typedef SDL_Color Palette[256];
 
@@ -48,4 +48,6 @@ void fade_solid(SDL_Color color, int steps, unsigned int first_color, unsigned i
 void fade_black(int steps);
 void fade_white(int steps);
 
-}
+
+
+}

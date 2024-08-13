@@ -21,7 +21,7 @@ using static Opentyrian2000.pcxmast;
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class pcxmast 
 {
 const JE_byte pcxpal[PCX_NUM] = /* [1..PCXnum] */
 { 0, 7, 5, 8, 10, 5, 18, 19, 19, 20, 21, 22, 5, 23};
@@ -31,4 +31,6 @@ const JE_byte facepal[12] = /* [1..12] */
 { 1, 2, 3, 4, 6, 9, 11, 12, 16, 13, 14, 15};
 
 JE_pcxpostype pcxpos;
-}
+
+
+}

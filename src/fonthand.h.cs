@@ -22,7 +22,7 @@ using static Opentyrian2000.opentyr;
 using static Opentyrian2000.SDL;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class fonthand 
 {
 #define PART_SHADE 0
 #define FULL_SHADE 1
@@ -55,4 +55,6 @@ void JE_outTextAndDarken(SDL_Surface * screen, int x, int y, const char *s, unsi
 void JE_updateWarning(SDL_Surface * screen);
 void JE_outTextGlow(SDL_Surface * screen, int x, int y, const char *s);
 
-}
+
+
+}

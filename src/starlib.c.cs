@@ -26,7 +26,7 @@ using static Opentyrian2000.video;
 #include <ctype.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class starlib 
 {
 #define starlib_MAX_STARS 1000
 #define MAX_TYPES 14
@@ -469,4 +469,6 @@ void JE_newStar(void)
 		}
 	}
 }
-}
+
+
+}

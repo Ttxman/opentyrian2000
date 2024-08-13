@@ -19,7 +19,7 @@
 using static Opentyrian2000.player;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class player 
 {
 Player player[2];
 
@@ -56,4 +56,6 @@ void handle_got_purple_ball(Player *this_player)
 	else
 		power_up_weapon(this_player, this_player->is_dragonwing ? REAR_WEAPON : FRONT_WEAPON);
 }
-}
+
+
+}

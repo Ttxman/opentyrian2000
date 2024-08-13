@@ -30,7 +30,7 @@
 #include <string.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class config_file 
 {
 #ifndef COMPILE_TIME_ASSERT
 /*!
@@ -595,4 +595,6 @@ static inline unsigned int config_get_value_count(const ConfigOption *option)
 	}
 
 #endif
-}
+
+
+}

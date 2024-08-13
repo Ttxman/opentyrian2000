@@ -22,7 +22,7 @@ using static Opentyrian2000.opentyr;
 using static Opentyrian2000.lvlmast;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class episodes 
 {
 /* Episodes and general data */
 
@@ -169,4 +169,6 @@ void JE_initEpisode(JE_byte newEpisode);
 unsigned int JE_findNextEpisode(void);
 void JE_scanForEpisodes(void);
 
-}
+
+
+}

@@ -21,7 +21,7 @@ using static Opentyrian2000.sndmast;
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class sndmast 
 {
 const char soundTitle[SOUND_COUNT][9] = /* [1..soundnum + 9] of string [8] */
 {
@@ -79,4 +79,6 @@ const JE_byte windowTextSamples[9] = /* [1..9] */
 	V_DANGER,
 	V_ENEMIES
 };
-}
+
+
+}

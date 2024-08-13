@@ -1,7 +1,7 @@
 using static Opentyrian2000.vga_palette;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class vga_palette 
 {
 // only used for the jukebox
 
@@ -72,4 +72,6 @@ Palette vga_palette =
 	{  0,   0,   0}, {  0,   0,   0}, {  0,   0,   0}, {  0,   0,   0},
 	{  0,   0,   0}, {  0,   0,   0}, {  0,   0,   0}, {  0,   0,   0}
 };
-}
+
+
+}

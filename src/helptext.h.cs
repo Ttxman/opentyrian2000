@@ -24,7 +24,7 @@ using static Opentyrian2000.SDL;
 #include <stdio.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class helptext 
 {
 #define MENU_MAX 15
 
@@ -80,4 +80,6 @@ void JE_helpBox(SDL_Surface *screen, int x, int y, const char *message, unsigned
 void JE_HBox(SDL_Surface *screen, int x, int y, unsigned int  messagenum, unsigned int boxwidth);
 void JE_loadHelpText(void);
 
-}
+
+
+}

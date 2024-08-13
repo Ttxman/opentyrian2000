@@ -34,7 +34,7 @@ using static Opentyrian2000.xmas;
 #include <string.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class params 
 {
 JE_boolean richMode = false, constantPlay = false, constantDie = false;
 
@@ -271,4 +271,6 @@ void JE_paramCheck(int argc, char *argv[])
 		}
 	}
 }
-}
+
+
+}

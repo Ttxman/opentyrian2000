@@ -26,7 +26,7 @@
 #include <stdint.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class opl 
 {
 typedef uintptr_t	Bitu;
 typedef intptr_t	Bits;
@@ -49,4 +49,6 @@ void adlib_write_index(Bitu port, Bit8u val);
 #define opl_write(reg, val) adlib_write(reg, val)
 #define opl_update(buf, num) adlib_getsample(buf, num)
 
-}
+
+
+}

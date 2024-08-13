@@ -29,7 +29,7 @@ using static Opentyrian2000.SDL;
 #include <string.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class file 
 {
 const char *custom_data_dir = NULL;
 
@@ -153,4 +153,6 @@ void fwrite_die(const void *buffer, size_t size, size_t count, FILE *stream)
 		exit(EXIT_FAILURE);
 	}
 }
-}
+
+
+}

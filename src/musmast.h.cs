@@ -20,7 +20,7 @@
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class musmast 
 {
 #define DEFAULT_SONG_BUY 2
 #define SONG_LEVELEND    9
@@ -36,4 +36,6 @@ extern JE_byte songBuy;
 extern const char musicTitle[MUSIC_NUM][48];
 extern JE_boolean musicFade;
 
-}
+
+
+}

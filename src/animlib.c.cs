@@ -30,7 +30,7 @@ using static Opentyrian2000.video;
 #include <string.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class animlib 
 {
 /*** Structs ***/
 /* The actual header has a lot of fields that are basically useless to us since
@@ -398,4 +398,6 @@ int JE_playRunSkipDump(Uint8 *incomingBuffer, unsigned int IncomingBufferLength)
 	/* And that's that */
 	return 0;
 }
-}
+
+
+}

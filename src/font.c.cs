@@ -22,7 +22,7 @@ using static Opentyrian2000.fonthand;
 using static Opentyrian2000.sprite;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class font 
 {
 /**
  * \file font.c
@@ -276,4 +276,6 @@ void draw_font_dark(SDL_Surface *surface, int x, int y, const char *text, Font f
 		}
 	}
 }
-}
+
+
+}

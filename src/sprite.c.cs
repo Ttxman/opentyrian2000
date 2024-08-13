@@ -27,7 +27,7 @@ using static Opentyrian2000.video;
 #include <stdlib.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class sprite 
 {
 Sprite_array sprite_table[SPRITE_TABLES_MAX];
 
@@ -864,4 +864,6 @@ void free_main_shape_tables(void)
 	free_sprite2s(&spriteSheet11);
 	free_sprite2s(&spriteSheet12);
 }
-}
+
+
+}

@@ -33,7 +33,7 @@ using static Opentyrian2000.video;
 #include <string.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class joystick 
 {
 int joystick_axis_threshold(int j, int value);
 int check_assigned(SDL_Joystick *joystick_handle, const Joystick_assignment assignment[2]);
@@ -650,4 +650,6 @@ bool joystick_assignment_cmp(const Joystick_assignment *a, const Joystick_assign
 	
 	return false;
 }
-}
+
+
+}

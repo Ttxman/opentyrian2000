@@ -21,7 +21,7 @@ using static Opentyrian2000.helptext;
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class game_menu 
 {
 typedef JE_byte JE_MenuChoiceType[MENU_MAX];
 
@@ -56,4 +56,6 @@ void JE_drawShipSpecs(SDL_Surface *, SDL_Surface *);
 void JE_weaponSimUpdate(void);
 void JE_weaponViewFrame(void);
 
-}
+
+
+}

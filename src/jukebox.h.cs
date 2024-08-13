@@ -20,8 +20,10 @@
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class jukebox 
 {
 void jukebox(void);
 
-}
+
+
+}

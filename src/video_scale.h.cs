@@ -22,7 +22,7 @@ using static Opentyrian2000.opentyr;
 using static Opentyrian2000.SDL;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class video_scale 
 {
 typedef void (*ScalerFunction)(SDL_Surface *src, SDL_Texture *dst);
 
@@ -39,4 +39,6 @@ extern const uint scalers_count;
 
 void set_scaler_by_name(const char *name);
 
-}
+
+
+}

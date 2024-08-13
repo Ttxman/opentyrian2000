@@ -45,7 +45,7 @@ using static Opentyrian2000.video;
 #include <assert.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class game_menu 
 {
 enum
 {
@@ -3421,4 +3421,6 @@ void JE_weaponViewFrame(void)
 
 	//JE_waitFrameCount();  TODO: didn't do anything?
 }
-}
+
+
+}

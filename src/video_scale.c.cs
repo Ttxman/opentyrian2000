@@ -28,7 +28,7 @@ using static Opentyrian2000.video;
 #include <string.h>
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class video_scale 
 {
 static void nn_32(SDL_Surface *src_surface, SDL_Texture *dst_texture);
 static void nn_16(SDL_Surface *src_surface, SDL_Texture *dst_texture);
@@ -447,4 +447,6 @@ void scale3x_16(SDL_Surface *src_surface, SDL_Texture *dst_texture)
 
 	SDL_UnlockTexture(dst_texture);
 }
-}
+
+
+}

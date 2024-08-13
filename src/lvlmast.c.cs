@@ -21,11 +21,13 @@ using static Opentyrian2000.lvlmast;
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class lvlmast 
 {
 const JE_char shapeFile[36] = /* [1..36] */
 {
 	'2', '4', '7', '8', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N',
 	'O', 'P', 'Q', 'R', 'S', 'T', 'U', '5', '#', 'V', '0', '@', '3', '^', '5', '9', '\'', '%'
 };
-}
+
+
+}

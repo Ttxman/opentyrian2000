@@ -20,10 +20,12 @@
 using static Opentyrian2000.opentyr;
 
  namespace Opentyrian2000; 
- public partial class __filename__ 
+ public partial class params 
 {
 extern JE_boolean richMode, constantPlay, constantDie;
 
 void JE_paramCheck(int argc, char *argv[]);
 
-}
+
+
+}
